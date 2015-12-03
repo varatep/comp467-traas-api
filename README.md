@@ -12,4 +12,7 @@ Inside `index.js`, replace {INSERT_API_KEY_HERE} with `H269PU-6G343G2Q7K`
 5. run `node index.js` to run the server and it is now accessible at http://localhost:3000
 
 ---
-## Documentation
+## Api Documentation
+Calls:
+1. `/compute/[query-string]` will compute using wolfram alpha
+2. `/recognize` will return a recognized string from the image
